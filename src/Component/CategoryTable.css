@@ -1,33 +1,52 @@
 .category-table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: #fff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
-  .category-table thead {
-    background-color: #f0f0f0;
-  }
-  
-  .category-table th,
-  .category-table td {
-    padding: 12px 16px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .category-table th {
-    font-weight: bold;
-  }
-  
-  .category-table td.amount-income {
-    color: green;
-    font-weight: bold;
-  }
-  
-  .category-table td.amount-expense {
-    color: red;
-    font-weight: bold;
-  }  
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.category-table th,
+.category-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.category-table th {
+  background-color: orangered;
+  color: white;
+  font-weight: 600;
+}
+
+.category-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.category-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.amount-income {
+  color: #28a745; /* hijau untuk pemasukan */
+  font-weight: bold;
+}
+
+.amount-expense {
+  color: #dc3545; /* merah untuk pengeluaran */
+  font-weight: bold;
+}
+
+.category-table button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.category-table button:hover {
+  background-color: #c82333;
+}

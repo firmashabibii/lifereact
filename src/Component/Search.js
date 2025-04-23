@@ -9,7 +9,7 @@ const Search = ({ onSearch }) => {
       style={{
         marginBottom: '1rem',
         padding: '0.5rem',
-        width: '100%',
+        width: '98%',
         border: '1px solid #ccc',
         borderRadius: '4px',
       }}

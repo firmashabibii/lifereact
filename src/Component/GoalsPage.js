@@ -2,7 +2,7 @@
 import React from 'react';
 
 const GoalsPage = () => {
-  return <div>Ini halaman Goals</div>;
+  return <div>My Goals</div>;
 };
 
 export default GoalsPage;
